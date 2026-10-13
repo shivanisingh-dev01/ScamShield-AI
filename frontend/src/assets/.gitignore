@@ -1,21 +1,21 @@
-@'
 .venv/
 venv/
 __pycache__/
 *.pyc
+
 node_modules/
 dist/
+
 .env
 .env.*
 !.env.example
+
 google_credentials.json
 gmail_token.json
-gmail_seen.json
 gmail_results.json
+gmail_seen.json
+gmail_auto.py
 client_secret_*.json
+
 *.pem
 *.key
-*.db
-*.sqlite3
-*.tsbuildinfo
-'@ | Set-Content -Path .gitignore -Encoding utf8
